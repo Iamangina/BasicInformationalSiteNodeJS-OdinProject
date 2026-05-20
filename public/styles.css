@@ -1,0 +1,100 @@
+body{
+    background-image: url('/public/background.jpg');
+    background-position: center;
+    background-size: cover;
+    font-family: 'Courier New', Courier, monospace;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    overflow: hidden;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    padding: 0 45px;
+}
+.logoName{
+    font-weight: 900;
+    font-size: 2.5rem;
+}
+.links{
+    display: flex;
+    gap: 40px;
+}
+.links > a{
+    color: black;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+.info, .buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 80px;
+}
+.infoAbout{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.infoAbout > h1{
+    margin: 0px;
+}
+.infoAbout > p{
+    margin: 0px;
+    margin-bottom: 30px;
+    
+    text-align: center;
+    padding: 10px 100px;
+    background-color: rgba(255, 255, 255, 0.612);
+}
+button > a{
+    color: black;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+.title{
+    font-size: 4.5rem;
+    font-weight: 900;
+    width: 600px;
+    text-align: center;
+    text-shadow: 0 0 2px white;
+}
+button{
+    background-color: rgb(255, 255, 255);
+    border: 3px solid rgb(109, 218, 228);
+    border-radius: 20px;
+    padding: 5px 15px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    margin-top: auto;
+    color: white;
+}
+footer > p > a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-shadow: 0 0 1px black;
+}
+.titleContact{
+    font-size: 4.5rem;
+    font-weight: 900;
+    width: 500px;
+    text-align: center;
+    text-shadow: 0 0 2px white;
+}
+.titleContact > a{
+    text-decoration: none;
+    color: black;
+    font-size: 2.5rem;
+}
